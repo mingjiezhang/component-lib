@@ -1,0 +1,23 @@
+{
+  "name": "component-lib",
+  "version": "1.0.0",
+  "description": "an example component library built with React!",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingjiezhang/component-lib.git"
+  },
+  "author": "mjzhang <mjzhangtim@163.com> (http://mjzhang.cn)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingjiezhang/component-lib/issues"
+  },
+  "homepage": "https://github.com/mingjiezhang/component-lib#readme"
+}
