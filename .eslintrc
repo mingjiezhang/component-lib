@@ -2,7 +2,7 @@
   root: true,
   parser: 'babel-eslint',
   plugins: [/*'import', */'jsx-a11y', 'react'],
-  env: {
+  env: { 
     browser: true,
     commonjs: true,
     es6: true,
